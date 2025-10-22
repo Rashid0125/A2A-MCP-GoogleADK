@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Wall Art - Discover Unique Designs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 15px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .hero {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1500x400/555555/FFFFFF?text=Stunning+Metal+Wall+Art') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+        }
+        .hero .button {
+            display: inline-block;
+            color: #fff;
+            background: #77aaff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .hero .button:hover {
+            background: #5588cc;
+        }
+        .products {
+            padding: 40px 0;
+            text-align: center;
+        }
+        .products h3 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 0 20px;
+        }
+        .product-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .product-card h4 {
+            font-size: 1.3em;
+            margin: 10px 0;
+            color: #555;
+        }
+        .product-card .price {
+            font-size: 1.4em;
+            color: #77aaff;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .product-card .add-to-cart {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .product-card .add-to-cart:hover {
+            background: #555;
+        }
+        .about-category {
+            background: #fff;
+            padding: 40px 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .about-category h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .about-category p {
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Metal</span> Wall Art</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Transform Your Space with Exquisite Metal Wall Art</h2>
+        <p>Discover unique and handcrafted designs to elevate your home or office décor.</p>
+        <a href="#" class="button">Shop Now</a>
+    </section>
+
+    <section class="products container">
+        <h3>Our Latest Metal Art Collections</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Geometric+Abstract" alt="Geometric Abstract Metal Art">
+                <h4>Geometric Abstract</h4>
+                <p class="price">9.99</p>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Nature+Inspired+Design" alt="Nature Inspired Metal Art">
+                <h4>Nature Inspired</h4>
+                <p class="price">9.99</p>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Custom+Sculpture" alt="Custom Metal Sculpture">
+                <h4>Custom Sculpture</h4>
+                <p class="price">49.99</p>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Modern+Minimalist" alt="Modern Minimalist Metal Art">
+                <h4>Modern Minimalist</h4>
+                <p class="price">9.99</p>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-category">
+        <div class="container">
+            <h3>About Metal Wall Art</h3>
+            <p>Metal wall art is a captivating way to add texture, depth, and character to any room. From intricate laser-cut designs to bold abstract sculptures, each piece is a testament to craftsmanship and artistic vision. Our collection features a diverse range of styles, perfect for complementing contemporary, industrial, or even rustic interiors. Explore our unique selection and find the perfect statement piece to reflect your personal style and enhance your living space.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Metal Wall Art &copy; 2023. All rights reserved.</p>
+    </footer>
+</body>
+</html>
