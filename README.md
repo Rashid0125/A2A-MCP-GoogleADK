@@ -1,6 +1,6 @@
 # MCP + A2A APP
 
-This project is a comprehensive on building a multi-agent system from scratch. It covers the fundamentals of creating a robust and scalable multi-agent architecture using the Mission Control Protocol (MCP) and Agent-to-Agent (A2A) communication.
+This project is a comprehensive on building a multi-agent system from scratch. It covers the fundamentals of creating a robust and scalable multi-agent architecture using the Model Context Protocol (MCP) and Agent-to-Agent (A2A) communication.
 
 ## Project Overview
 
